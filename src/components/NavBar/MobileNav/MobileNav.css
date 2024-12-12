@@ -1,14 +1,14 @@
 .mobile-menu {
     width: 100vw;
-    height: 100vh;
+    height: 100%;
     display: none;
-    background-color: var(--color-black-transponent);
+    background-color: #F17724;
     position: fixed;
     left: 0;
     top: 0;
     z-index: 999 !important;
     opacity: 0;
-    box-shadow: var(--shadow-primary);
+    box-shadow: black;
     transition: all 0.3s ease;
     transform: translateX(-100vw);
 }
@@ -16,10 +16,7 @@
 .mobile-menu-container {
     width: 60vw;
     height: 100vh;
-    background-color: var(--color-primary-darken);
-    -webkit-box-shadow: var(--shadow-primary);
-    -moz-box-shadow: var(--shadow-primary);
-    box-shadow: var(--shadow-primary);
+    box-shadow: black;
     padding: 2rem;
 }
 
